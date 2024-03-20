@@ -4,7 +4,7 @@ host = 'COMPUTER NAME'
 user = 'root'
 password = 'PASSWORD'
 port = '3306'
-database = 'YOUR SCHEMA NAME'
+database = 'students_courses_schedules'
 
 # Create the initial connection and cursor
 connection = mysql.connector.connect(host=host, user=user, password=password, port=port)
